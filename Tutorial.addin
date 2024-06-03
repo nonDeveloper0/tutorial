@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command Tutorial</Text>
+    <Description>Some description for Tutorial</Description>
+    <Assembly>Tutorial.dll</Assembly>
+    <FullClassName>Tutorial.Command</FullClassName>
+    <ClientId>5d11df5c-be40-4e04-88ca-21cb3e6b460d</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application Tutorial</Name>
+    <Assembly>Tutorial.dll</Assembly>
+    <FullClassName>Tutorial.App</FullClassName>
+    <ClientId>c5e69e46-0e1c-49d9-9678-1dd17ba70ce2</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
